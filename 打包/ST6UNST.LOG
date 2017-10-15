@@ -1,0 +1,83 @@
+ %% 请一定不要修改或删除该文件！ %% 
+ %% 文件包含关于应用程序安装的信息。 %% 
+ %% 如果选择这样做，将自动删除您计算机上的所有应用程序部件。 %% 
+
+
+NOTE: 引导扇区首
+
+CONFIG: Title: "模拟钢琴"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SystemFile: "C:\Windows\System32\VB6STKIT.DLL"
+(磁盘上的当前文件已经更新)
+
+ACTION: SystemFile: "C:\Windows\System32\COMCAT.DLL"
+(磁盘上的当前文件已经更新)
+
+*** 错误: C:\Windows\System32\VB6CHS.DLL
+*** 错误: 目标文件正在使用中，请确认所有其他应用程序均已关闭。
+*** 错误: (用户响应 '重试')
+*** 在本操作期间: SystemFile: "C:\Windows\System32\VB6CHS.DLL"
+
+*** 错误: C:\Windows\System32\VB6CHS.DLL
+*** 错误: 目标文件正在使用中，请确认所有其他应用程序均已关闭。
+*** 错误: (用户响应 '忽略')
+*** 在本操作期间: SystemFile: "C:\Windows\System32\VB6CHS.DLL"
+
+ACTION: SystemFile: "C:\Windows\System32\stdole2.tlb"
+(磁盘上的当前文件已经更新)
+
+ACTION: SystemFile: "C:\Windows\System32\asycfilt.dll"
+(磁盘上的当前文件已经更新)
+
+ACTION: SystemFile: "C:\Windows\System32\olepro32.dll"
+(磁盘上的当前文件已经更新)
+
+ACTION: SystemFile: "C:\Windows\System32\oleaut32.dll"
+(磁盘上的当前文件已经更新)
+
+ACTION: SystemFile: "C:\Windows\System32\msvbvm60.dll"
+(磁盘上的当前文件已经更新)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\COMCAT.DLL"
+
+ACTION: TLBRegister: "C:\WINDOWS\SYSTEM32\stdole2.tlb"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\olepro32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\oleaut32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\msvbvm60.dll"
+
+NOTE: 引导扇区尾
+
+NOTE: 正在生成主安装程序 'Setup1.exe'....
+
+ACTION: CreateDir: "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\模拟钢琴"
+
+*** 错误: C:\Windows\system32\MSCOMCHS.DLL
+*** 错误: 目标文件在使用中。请保证所有其他有关应用程序均以关闭。
+*** 错误: (用户响应 '忽略')
+*** 在本操作期间: SharedFile: "C:\Windows\system32\MSCOMCHS.DLL"
+
+*** 错误: C:\Windows\system32\MSCOMCHS.DLL
+*** 错误: 目标文件在使用中。请保证所有其他有关应用程序均以关闭。
+*** 错误: 如果您忽略复制错误，文件将不被复制。应用程序运行可能不正确。您当真忽略该错误吗？
+*** 错误: (用户响应 '是')
+*** 在本操作期间: SharedFile: "C:\Windows\system32\MSCOMCHS.DLL"
+
+ACTION: SharedFile: "C:\Windows\system32\MSCOMM32.OCX"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: SharedFile: "e:\岑哲栋专用\VB专用\模拟钢琴\打包\模拟钢琴.exe"
+(文件未找到或版本太旧 -- 复制新文件)
+
+ACTION: DllSelfRegister: "C:\Windows\system32\MSCOMM32.OCX"
+
+ACTION: ShellLink: "模拟钢琴", "模拟钢琴"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\模拟钢琴.exe"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\模拟钢琴.exe", ""
+

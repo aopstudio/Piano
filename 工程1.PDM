@@ -1,0 +1,94 @@
+[Root]
+Most Recent Package=标准安装软件包 1
+
+
+[Package|标准安装软件包 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\岑哲栋专用\VB专用\模拟钢琴\包
+
+[Package|标准安装软件包 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|标准安装软件包 1|Files Found]
+
+[Package|标准安装软件包 1|Files Released]
+
+[Package|标准安装软件包 1|Missing Dependency Information]
+
+[Package|标准安装软件包 1|Out-of-Date Dependency Information]
+
+[Package|标准安装软件包 1|Files Added]
+
+[Package|标准安装软件包 1|Files Removed]
+
+[Package|标准安装软件包 1|Files In Project]
+E:\岑哲栋专用\VB专用\模拟钢琴\模拟钢琴.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+E:\岑哲栋专用\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6CHS.DLL=Yes
+C:\Windows\System32\MSCOMM32.OCX=Yes
+C:\Windows\System32\MSCOMCHS.DLL=Yes
+E:\岑哲栋专用\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\岑哲栋专用\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+E:\岑哲栋专用\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|标准安装软件包 1|Configure Registry Files]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure Remote Servers]
+Applicable=No
+
+[Package|标准安装软件包 1|Install Locations]
+E:\岑哲栋专用\VB专用\模拟钢琴\模拟钢琴.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+E:\岑哲栋专用\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6CHS.DLL=$(WinSysPath)
+C:\Windows\System32\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\System32\MSCOMCHS.DLL=$(WinSysPath)
+E:\岑哲栋专用\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\岑哲栋专用\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\岑哲栋专用\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|标准安装软件包 1|Configure Shared Files]
+Applicable=Yes
+E:\岑哲栋专用\VB专用\模拟钢琴\模拟钢琴.exe=Yes
+
+[Package|标准安装软件包 1|Distribution]
+Type=single
+Size=
+Title=模拟钢琴
+
+[Package|标准安装软件包 1|IconGroups]
+Group0=模拟钢琴
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|标准安装软件包 1|模拟钢琴]
+Icon1=模拟钢琴.exe
+Title1=模拟钢琴
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|标准安装软件包 1|Package]
+PackageFolder=E:\岑哲栋专用\VB专用\模拟钢琴\包
+ProjectFolder=E:\岑哲栋专用\VB专用\模拟钢琴
+ServerSideCab=
+File1=E:\岑哲栋专用\VB专用\模拟钢琴\包\setup.exe
+File2=E:\岑哲栋专用\VB专用\模拟钢琴\包\Setup.Lst
+File3=E:\岑哲栋专用\VB专用\模拟钢琴\包\模拟钢琴.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
